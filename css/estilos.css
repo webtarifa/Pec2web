@@ -144,13 +144,33 @@ body{
     border-left: 10px solid grey;
 }
 .contenedorCentral__cita blockquote{
+    position: relative;
     padding: 20px;
     text-indent: 40px;
     line-height: 35px;
     
 }
 .comillas{
-    list-style-image: url(/imagenes/);
+    
+    
+    width: 30px;
+    height: 30px;
+    padding-right:30px ;
+    background-size: 20px;
+    background-image: url(/imagenes/comillasabajo.png);
+    background-repeat: no-repeat;
+}
+.comillas2{
+    width: 30px;
+    height: 30px;
+    padding-left:20px ;
+    margin-left: 10px;
+    background-size: 20px;
+    background-image: url(/imagenes/marca-derecha-de-la-cita.png);
+    background-repeat: no-repeat;
+    
+    
+   
 }
 .contenedorCentral__parrafo3{
     padding-top: 30px;
