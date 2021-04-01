@@ -6,7 +6,7 @@
     
 }
 body{
-    background-image:  url(/imagenes/fondo.jpg);
+    background-image:  url(imagenes/fondo.jpg);
     background-repeat: no-repeat;
     font-family: 'Alice', serif; 
     
@@ -157,7 +157,7 @@ body{
     height: 30px;
     padding-right:30px ;
     background-size: 20px;
-    background-image: url(/imagenes/comillasabajo.png);
+    background-image: url(imagenes/comillasabajo.png);
     background-repeat: no-repeat;
 }
 .comillas2{
@@ -166,7 +166,7 @@ body{
     padding-left:20px ;
     margin-left: 10px;
     background-size: 20px;
-    background-image: url(/imagenes/marca-derecha-de-la-cita.png);
+    background-image: url(imagenes/marca-derecha-de-la-cita.png);
     background-repeat: no-repeat;
     
     
