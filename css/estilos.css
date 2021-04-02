@@ -7,23 +7,17 @@
     color: rgb(29, 29, 29);
     font-family: 'Alice', serif;
 }
-body{
-    
-}
+
 
 
 /* header */
 #contenedor_cabecera{
-    
-    
-    background-image:  url(../imagenes/fondo.jpg);
+    background-image:  url(../imagenes/fondo.jpg);/* imagen de fondo */
     background-repeat: no-repeat;
     width: 100vw;
     height: 20em;
     margin-left: auto;
-    margin-right: auto;
-    
-    
+    margin-right: auto; 
 }
 
 
@@ -39,18 +33,15 @@ body{
     
 }
 
-#contenedor_cabecera ul{
+#contenedor_cabecera ul{/* alinea los elementos */
     display: flex;
     justify-content:center; 
     padding-bottom: 3em; 
     
 }
 
-#contenedor_cabecera li{
-    list-style-type: none;
-}
 
-#contenedor_cabecera a{
+#contenedor_cabecera a{/* cajas botones */
     padding-left: 6em;
     padding-right: 6em;
     padding-top: 1em;
@@ -66,19 +57,19 @@ body{
    
     
 }
-#contenedor_cabecera .inicio{
+#contenedor_cabecera .inicio{/* boton inicio activado */
     background-color: white;
     color: #9A0F08;
     border: 1px solid #9A0F08;
 
 }
-#contenedor_cabecera .historia{
+#contenedor_cabecera .historia{/* contenedor historia activado*/
     background-color: white;
     color: #9A0F08;
     border: 1px solid #9A0F08;
 
 }
-#contenedor_cabecera .alternativas{
+#contenedor_cabecera .alternativas{/* contenedor alternativa activado*/
     background-color: white;
     color: #9A0F08;
     border: 1px solid #9A0F08;
@@ -88,7 +79,7 @@ body{
 
 /* inicio articulo*/
 
-.contenedorCentral{
+.contenedorCentral{/* contenedor central */
     width: 80%;
     max-width: 1080px;
     background-color:#fff1e4;
@@ -97,7 +88,7 @@ body{
     padding: 1em 2em 1em 2em;  
 }
 
-.contenedorCentral__titulo{
+.contenedorCentral__titulo{/* titulo */
     color: #9A0F08;
     font-family: 'Rubik', sans-serif;
     font-size: 3em;
@@ -105,7 +96,7 @@ body{
     
 
 }
-.contenedorCentral__autor {
+.contenedorCentral__autor {/* autor y fecha */
     font-family: 'Rubik', sans-serif;
     font-size: .8em;
     text-align: left;
@@ -116,7 +107,7 @@ body{
     
 }
  
-hr{
+hr{/* linea horizontal */
     height: 3px;
     width: 90%;
     background-color: #9A0F08;
@@ -124,14 +115,14 @@ hr{
 
 }
 
-p{
+p{/* peso, interlineado y sandria primera linea */
     
     text-indent: 2em;
     line-height: 1.7em; 
     font-weight: 100;   
 }
 
-.contenedorCentral__cita{
+.contenedorCentral__cita{/* cita */
     margin: 1em 0 2em;
     background-color: white;
     border-left: 10px solid grey;
@@ -143,7 +134,7 @@ p{
     font-weight: 100; 
     
 }
-.comillas{
+.comillas{/* imagenes comillas como fondo¿? */
     width: 1em;
     height: 1em;
     padding-right:2em ;
@@ -162,18 +153,18 @@ p{
    
 }
 
-h2{
+h2{/* Subtitulos articulo */
     color: #9A0F08;
     padding-top: 1em;
     padding-bottom: 1em;
     font-size: 1.2em;
 }
 
-.enlaces{
+.enlaces{ /* Enlaces */
     color:#668888 ;
     font-weight:bold;
 }
-
+/* imagen con su border y linea superior */
 figure{
     padding: 2em;
     text-align: center; 
@@ -184,7 +175,7 @@ figure img{
     box-shadow: 10px 6px 10px rgba(255, 1, 1, 0.2) ;
     border-top:20px solid #fff1e4;
     text-align: center;
-    /* border-top:8px solid #fff1e4; */ 
+    
 
 }
 figure hr{
@@ -193,12 +184,12 @@ figure hr{
     background-color: rgb(142, 142, 142);
 
 }
-figcaption{
+figcaption{/* Pie de pagina */
     padding-top: 1em;
     text-align: center;
     font-style: italic;
 }
-abbr{
+abbr{/* palabras extranjeras */
     font-style: italic;
 }
 
@@ -258,6 +249,7 @@ abbr{
     padding-top: 2em;
 }
 
+/* cards */
 .cardsContenedorPrincipal{
     width: 800PX;
     display: grid;
@@ -316,13 +308,11 @@ abbr{
 .cards__verde{
     color: green;
 }
+
 .contenedorFooterAlternativas{
     width: 100%;
     height: 100px;
-    background-color: #9A0F08;
-    
-
-    
+    background-color: #9A0F08;    
 }
 
 .contenedorFooter__AlternativasParrafo2 p{
@@ -340,7 +330,9 @@ abbr{
     color: white;
     font-weight: bold;
     font-size: 12px;
+    
 }
+
 .contenedorFooter__cursivas1{
     color: white;
     font-weight: bold;
@@ -385,7 +377,10 @@ padding-left: 2em;
 margin-left: 2em;
 margin-bottom: 4em;
 }
-
+.contenedorAntecedentes dd{
+    text-indent: 1em;
+    margin-bottom: 1em;
+}
 
 
 .contenedorMacromedia{
@@ -404,13 +399,14 @@ margin-bottom: 4em;
     color: #9A0F08;
     
 }
-.contenedorMacromedia p{
+.contenedorMacromedia dd{
     text-indent: 1em;
     margin-bottom: 1em;
      
      
 }
-.contenedorAdobe{
+.contenedorAdobe {
+    
     border-left: 4px solid #9A0F08;
     padding-left: 2em;
     margin-left: 2em; 
@@ -437,7 +433,7 @@ li{
       list-style-type: square;
       margin: .5em 0 .5em 5em;
       padding: .2em;
-      mar
+      
   }
   
 .icono{
