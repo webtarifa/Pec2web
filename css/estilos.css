@@ -384,7 +384,6 @@ margin-bottom: 4em;
     margin-bottom: 1em;
 }
 
-
 .contenedorMacromedia{
     border-left: 4px solid #9A0F08;
     padding-left: 2em;
@@ -403,9 +402,7 @@ margin-bottom: 4em;
 }
 .contenedorMacromedia dd{
     text-indent: 1em;
-    margin-bottom: 1em;
-     
-     
+    margin-bottom: 1em;   
 }
 .contenedorAdobe {
     
@@ -429,14 +426,14 @@ margin-bottom: 4em;
 
 li{
     list-style-type:none;
-  }
+}
 
 .decoration{
       list-style-type: square;
       margin: .5em 0 .5em 5em;
       padding: .2em;
       
-  }
+}
   
 .icono{
    
@@ -455,13 +452,10 @@ li{
     color: #9A0F08;
 
 }
-
 .contenedorMacromedia__subtitulos em{
     color: #9A0F08;
     font-weight: bold;
     
-    
-
 }
 .contenedorMacromedia__listas{
     
