@@ -332,7 +332,9 @@ abbr{/* palabras extranjeras */
     font-size: 12px;
     
 }
-
+a:hover{
+    color: black;
+}
 .contenedorFooter__cursivas1{
     color: white;
     font-weight: bold;
