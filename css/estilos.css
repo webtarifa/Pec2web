@@ -40,8 +40,8 @@
     
 }
 
-
-#contenedor_cabecera a{/* cajas botones */
+/* cajas botones */
+#contenedor_cabecera a{
     padding-left: 6em;
     padding-right: 6em;
     padding-top: 1em;
@@ -57,12 +57,24 @@
    
     
 }
-#contenedor_cabecera .inicio{/* boton inicio activado */
+#contenedor_cabecera  .hover a:hover{
+    background-color: white;
+    color: #9A0F08;
+    border:1px solid #9A0F08;   
+}
+#contenedor_cabecera  .inicios a:hover{
+    background-color: #9A0F08;
+    color: white;
+    border:1px solid #9A0F08;   
+}
+#contenedor_cabecera .inicio{ /* boton inicio activado */
     background-color: white;
     color: #9A0F08;
     border: 1px solid #9A0F08;
 
 }
+
+
 #contenedor_cabecera .historia{/* contenedor historia activado*/
     background-color: white;
     color: #9A0F08;
@@ -333,8 +345,12 @@ abbr{/* palabras extranjeras */
     
 }
 a:hover{
-    color: black;
+color: rgb(0, 0, 0);
 }
+
+
+    
+
 .contenedorFooter__cursivas1{
     color: white;
     font-weight: bold;
