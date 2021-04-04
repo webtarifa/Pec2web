@@ -3,9 +3,9 @@
     padding: 0;
     color: rgb(94, 94, 94);
     box-sizing: border-box;
-    font-size:  1em;
     color: rgb(29, 29, 29);
     font-family: 'Alice', serif;
+    
 }
 
 
@@ -201,7 +201,7 @@ figcaption{/* Pie de pagina */
     text-align: center;
     font-style: italic;
 }
-abbr{/* palabras extranjeras */
+abbr{/* abreviaturas */
     font-style: italic;
 }
 
@@ -275,7 +275,7 @@ abbr{/* palabras extranjeras */
 .cards{
     position: relative;
     width: 280px;
-    height: 280px;
+    height: 290px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border: 1px solid black;
@@ -285,6 +285,7 @@ abbr{/* palabras extranjeras */
     background-color: #fff1e4;
     box-shadow: 10px 6px 10px rgba(255, 1, 1, 0.2) ;
     
+    
 }
 .cards__titulo{
     padding-top: 120px;
@@ -292,6 +293,7 @@ abbr{/* palabras extranjeras */
     text-align: right;
     color: #9A0F08;
     font-size: 1.2rem;
+    border-style: 1px solid black double;
     
 
 }
@@ -371,7 +373,6 @@ color: rgb(0, 0, 0);
     height: 100%;
     background-color:#fff1e4;
     margin: 0 auto;
-    font-size: 1.2em;
     padding-bottom: 1em;
 }
 
@@ -384,15 +385,15 @@ color: rgb(0, 0, 0);
     padding-top: 2em;
     padding-left: 1em;
     padding-bottom: 1em;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: black;
     
     
 }
 .contenedorAntecedentes{
 border-left: 4px solid #9A0F08;
-padding-left: 2em;
-margin-left: 2em;
+padding-left: 3em;
+margin-left: 4em;
 margin-bottom: 4em;
 }
 .contenedorAntecedentes dd{
@@ -402,17 +403,16 @@ margin-bottom: 4em;
 
 .contenedorMacromedia{
     border-left: 4px solid #9A0F08;
-    padding-left: 2em;
-    margin-left: 2em; 
+    padding-left: 3em;
+    margin-left: 4em; 
     margin-top: 1em;
     margin-bottom: 4em;      
 }
 
 .contenedorMacromedia__titulo em{
     padding-top: 1em;
-    padding-left: 1em;
     padding-bottom: 1em;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #9A0F08;
     
 }
@@ -423,16 +423,16 @@ margin-bottom: 4em;
 .contenedorAdobe {
     
     border-left: 4px solid #9A0F08;
-    padding-left: 2em;
-    margin-left: 2em; 
+    padding-left: 3em;
+    margin-left: 4em; 
     margin-top: 1em;
-    margin-bottom: 4em;      
+          
 }
 .contenedorAdobe__titulo em{
     padding-top: 1em;
-    padding-left: 1em;
+    padding-left: 2em;
     padding-bottom: 1em;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #9A0F08; 
 }
 .iconoimg{
@@ -470,7 +470,7 @@ li{
 }
 .contenedorMacromedia__subtitulos em{
     color: #9A0F08;
-    font-weight: bold;
+    font-weight:bold;
     
 }
 .contenedorMacromedia__listas{
@@ -490,4 +490,30 @@ list-style-type: circle;
 }
 .cursivasRojas abbr{
     color: #9A0F08;
+}
+/* pagina historia1 */
+.contenedorHistoria{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: #fff1e4;
+    padding-bottom: 2em;
+    
+
+}
+.parpadeo{
+    border-bottom: 2px dotted black;
+}
+.parpadeoRojo{
+    border-bottom: 2px dotted #9A0F08;
+    color: #9A0F08;
+}
+abbr{
+    color: #9A0F08;
+    padding-top: 1em;
+}
+li abbr{
+    color: black;
+    font-style: normal;
+    
 }
